@@ -1,0 +1,130 @@
+f*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: verdana;
+	width: 100%;
+  min-height: 100vh;
+  background-image:image/hero.jpg;
+}
+section {
+    width: 400px;
+    height: auto;
+    background-color: gray;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px black;
+    padding: 20px 30px;
+    border-top: 4px solid cyan;
+    color: white;
+}
+h1{
+ font-family: monospace;
+ font-size:50pt;
+  color: #FFF;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  text-shadow: -4px 3px 0 #34d16e, -14px 7px 0 #0a0e27;
+}
+input{
+	width: 100%;
+	color: grey;
+    border: 3px solid white;
+	box-shadow:0 0 10px #cfff04;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+  background-image: radial-gradient(circle at -14.09% 79.88%, #d0fffa 0, #cafdf2 25%, #c4f0e9 50%, #bfe3df 75%, #bad8d5 100%);
+    font-weight: bold;
+	border-radius:10px;
+}
+button{
+text-decoration:none;
+font-weight: 600;
+font-size: 20px;
+color:#333333;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:40px;
+padding-right:40px;
+background-color:14dbff;
+border-color: #fe019a;
+border-width: 3px;
+border-style: solid;
+border-radius:35px;
+box-shadow:0 0 50px #fe019a;
+}
+
+p{
+    width: 100%;
+    text-align: center;
+	color: grey;
+    border: 1px solid cyan;
+    margin-bottom: 10px;
+    padding: 9px 8px;
+    background: black;
+    font-size: 10px;
+    font-weight: bold;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+fieldset {
+ width: 400px;
+ height: 465px;
+background-color: 14dbff ;
+ border-color: #fe019a;
+ box-shadow:0 0 50px #fe019a;
+  border-width: 5px;
+  border-style: ridge;
+  border-radius:15px;
+  }
+  label{
+ font-family: fantasy;
+ font-size: 12pt;
+  }
+
+  #navigation {
+	float: right;
+	display: inline-block;
+	height: 26px;
+	width: 600px;
+	list-style: none;
+	margin: 15px 20px 12px 0;
+	padding: 4px 0 0;
+	width: 500px;
+ height: 50px;
+background-color: 14dbff ;
+ border-color: #fe019a;
+ box-shadow:0 0 50px #fe019a;
+  border-width: 5px;
+  border-style: ridge;
+  border-radius:15px;
+}
+#navigation li {
+	float: left;
+	font-size: 14px;
+	line-height: 36px;
+	margin: 0 10px;
+	text-align: center;
+}
+#navigation a {
+	color: #393939;
+	font-weight: bold;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+#navigation a:hover, #navigation li.selected a {
+	background-color: #a6e5f6;
+	color: #1b6d9d;
+	border-radius: 3px;
+}
+#navigation li.about a {
+	background-color: #fffeca;
+	color: #8d5226;
+}
